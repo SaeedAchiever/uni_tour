@@ -19,7 +19,7 @@ Clone the Repository:
 
 sh
 Copy code
-git clone https://github.com/yourusername/uni-tour.git
+git clone https://github.com/SaeedAchiever/uni-tour.git
 Install Dependencies:
 
 sh
