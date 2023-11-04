@@ -1,20 +1,32 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View } from 'react-native';
+
+import React from 'react';
+
+import Homepage from './Homepage/Homepage';
+
+
 
 export default function App() {
   return (
+
+    // <NavigationContainer>
+    //   <Stack.Navigator initialRouteName="Home">
+    //     <Stack.Screen name="Homepage" component={Homepage} />
+    //     <Stack.Screen name="Winneba" component={Winneba} />
+    //   </Stack.Navigator>
+    // </NavigationContainer>
+    
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+            <Homepage/>
     </View>
+
+
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#333',
-    alignItems: 'center',
-    justifyContent: 'center',
+    backgroundColor: '#fffff',
   },
 });
